@@ -1,0 +1,66 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#head{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 42px;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "kanit";
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#headerCta{
+    font-size: 15px;
+    font-family: "kanit";
+}
+#headerCta h1{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: #000;
+}
+
+.gray{
+    font-family: "kanit";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 32px;
+    font-size: 18px;
+}
+
+#headerIMG img{
+    height: 320px;
+    width: 450px;
+    margin-left: 100px;
+    border-radius: 6px;
+}
+
+#menu{
+    text-align: right;
+    margin-top: 49px;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+    line-height: 24px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-family: "kanit";
+    text-align: center;
+}
